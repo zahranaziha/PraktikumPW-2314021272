@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portofolio</title>
+    <link rel="stylesheet" href="index.css">
+    <!----Font awesome cdn font icon css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-a"></i>
+                    <div class="logo-text">Zahra Naziha</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="https://zahranaziha21.blogspot.com/">Blog</a></li>
+                        <li><a href="https://wa.me/6285278124901?text=">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="me1.jpeg" alt="profile pic" width="550px" height="400px">
+                </div>
+                <div class="hero-text">
+                    <h5>Hi I'm <span class=""></span></h5>
+                    <h1>Zahra Naziha</h1>
+                    <p>
+                        I am a new student at the Universitas Sumatera Utara, Faculty of Computer Science and Information Technology, Information Technology Study Program
+                    </p>
+                    <div class="btn-group">
+                        <a href="https://www.nazihazahra370@gmail.com" class="btn">Email</a>
+                        <a href="https://wa.me/6285278124901?text=" class="btn">Contact</a>
+                    </div>
+
+                    <div class="social">
+                        <a href="www.tiktok.com/@zahraanzh"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.linkedin.com/in/zahra-n-389a8a28b"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/zahranaziha_?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://spotify.link/pQbtDQcqWDb"><i class="fa-brands fa-spotify"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        /** creating button click show hide navbar **/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+    </script>
+        <!----about section----->
+        <div class="about">
+            <h1>About Me</h1>
+            <p>
+                I am a new student in Information Technology who is interested in UI/UX and Web Development.
+            </p>
+            <h2>What I Do!!</h2>
+            <div class="work">
+                <div class="workbox">
+                    <div class="icon">
+                        <img src="images/" alt="">
+                    </div>
+                    <div class="desc">
+                        <h3>Web Development</h3>
+                        <p>I'm really passionate about web development because it allows me to create and shape the digital world we interact with every day. I find it fascinating to design and build websites, applications, and interactive experiences that not only look great but also function seamlessly.</p>
+                    </div>
+                </div>
+                <div class="workbox">
+                    <div class="icon">
+                        <img src="images/" alt="">
+                    </div>
+                    <div class="desc">
+                        <h3>UI/UX</h3>
+                        <p>I'm genuinely drawn to UI/UX design because it's all about crafting user experiences that are not only visually appealing but also highly intuitive and user-friendly.</p>
+                    </div>
+                </div>
+                <div class="workbox">
+                    <div class="icon">
+                        <img src="images/" alt="">
+                    </div>
+                    <div class="desc">
+                        <h3>Game Development</h3>
+                        <p>I'm deeply passionate about game development because it combines my love for technology, storytelling, and creativity. The idea of creating immersive virtual worlds, interactive experiences, and challenging gameplay.</p>
+                    </div>
+                </div>
+                    <div class="workbox">
+                        <div class="icon">
+                            <img src="images/" alt="">
+                        </div>
+                        <div class="desc">
+                            <h3>Artificial Intelligence</h3>
+                            <p>I'm genuinely fascinated by Artificial Intelligence because it represents the cutting edge of technology and the potential to simulate human-like intelligence in machines. The ability to teach machines to learn, reason, and make decisions is not only groundbreaking but also holds tremendous promise for various fields, from healthcare to autonomous vehicles.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
